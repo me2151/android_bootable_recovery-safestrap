@@ -15,4 +15,4 @@ BOARD_DEFAULT_VIRT_CACHE_MAX_SIZE := 1000
 
 SS_TWRP_PRINT_SCREENINFO := true
 TWRP_EVENT_LOGGING := false
-
+TW_INPUT_BLACKLIST := "hbtp_vm\x0asec_e-pen-pad\x0asec_e-pen"
