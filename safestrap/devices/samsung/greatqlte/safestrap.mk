@@ -1,7 +1,6 @@
 include $(ANDROID_BUILD_TOP)/bootable/recovery/safestrap/devices/common/safestrap-common.mk
 include $(ANDROID_BUILD_TOP)/bootable/recovery/safestrap/devices/samsung/msm8998-common/safestrap-msm8998-common.mk
 
-
 # Virtual partition size default (in mb)
 BOARD_DEFAULT_VIRT_SYSTEM_SIZE := 5120
 BOARD_DEFAULT_VIRT_SYSTEM_MIN_SIZE := 4700
@@ -14,5 +13,4 @@ BOARD_DEFAULT_VIRT_CACHE_MIN_SIZE := 300
 BOARD_DEFAULT_VIRT_CACHE_MAX_SIZE := 1000
 
 SS_TWRP_PRINT_SCREENINFO := true
-TWRP_EVENT_LOGGING := false
 TW_INPUT_BLACKLIST := "hbtp_vm\x0asec_e-pen-pad\x0asec_e-pen"
